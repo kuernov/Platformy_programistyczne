@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Platformy_lab1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3741e8c997ef5222846dcec5eef87bb396245985")]
 [assembly: System.Reflection.AssemblyProductAttribute("Platformy_lab1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Platformy_lab1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

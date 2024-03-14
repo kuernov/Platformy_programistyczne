@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cLgIS3GJBCkzJDkoJI9yJOq9lpjP5ClAzAh2FJFHJnCv8A2NK05zQJUH/9teIlqZ5SITRuqb4BLWExTHKO+apw==",
+  "dgSpecHash": "Cj3kssypgjwLUvrRM4QC38VAdevCgH8AUiHQdjBk09DNu2ahEHbZOWD9sdKn+/0pxQYD4W6pexzMPclfAWdUcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\TestLab1\\TestLab1.csproj",
+  "projectFilePath": "C:\\Users\\barto\\source\\repos\\Platformy_programistyczne\\TestLab1\\TestLab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barto\\.nuget\\packages\\coverlet.collector\\6.0.1\\coverlet.collector.6.0.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",

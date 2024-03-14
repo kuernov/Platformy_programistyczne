@@ -27,6 +27,11 @@ namespace Platformy_lab1
             Items = GenerateItems(itemCount, seed);
         }
 
+        public ItemSet(List<Item> items)
+        {
+            Items = items;
+        }
+
         private List<Item> GenerateItems(int itemCount, int seed)
         {
             List<Item> items = new List<Item>();
