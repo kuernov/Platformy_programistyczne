@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
 using Platformy_lab1;
+using System.Diagnostics;
 
 namespace TestLab1
 {
@@ -7,7 +8,7 @@ namespace TestLab1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestItemInRange()
         {
             bool isItemInRange = false;
 
@@ -33,14 +34,35 @@ namespace TestLab1
 
         }
 
-
-    }
-
-    [TestClass]
-    public class UnitTest2
-    {
         [TestMethod]
-        public void TestMethod2()
+        public void TestCapacityEqualsZero()
+        {
+            bool isItemInRange = false;
+
+            int itemCount = 10;
+            int seed = 123;
+            int capacity = 0;
+            ItemSet itemSet = new ItemSet(itemCount, seed);
+
+            Result result = itemSet.Solution(capacity);
+
+            foreach (int itemId in result.ItemIdList)
+            {
+                Item item = itemSet.Items.Find(x => x.Id == itemId);
+                if (item.Weight <= capacity)
+                {
+                    isItemInRange = true;
+                }
+            }
+            if (isItemInRange)
+            {
+                Assert.IsTrue(result.ItemIdList.Count > 0);
+            }
+
+        }
+
+        [TestMethod]
+        public void TestSameSolutionForReversedItems()
         {
             int itemCount = 10;
             int seed = 123;
@@ -53,15 +75,11 @@ namespace TestLab1
             //zaklada ze elementy sa sortowane w funkcji solution
             //wtedy kolejnosc nie ma znaczenia 
             CollectionAssert.AreEqual(resultA.ItemIdList, resultB.ItemIdList);
-            Assert.AreEqual(resultA.SumValue, resultB.SumValue);  
+            Assert.AreEqual(resultA.SumValue, resultB.SumValue);
         }
-    }
 
-    [TestClass]
-    public class UnitTest3
-    {
         [TestMethod]
-        public void TestMethod3()
+        public void TestExpectedItemList()
         {
             List<Item> items = new List<Item>
         {
@@ -75,6 +93,55 @@ namespace TestLab1
             Assert.AreEqual(result.SumValue, 13);
             Assert.AreEqual(result.SumWeight, 5);
         }
+        // 4 dodatkowe testy
+        //sprawdzenia czy przy duzym capacity wszystkie przedmioty beda w plecaku
+        [TestMethod]
+        public void TestAllItemsFitInBackpack()
+        {
+            int itemCount = 10;
+            int seed = 123;
+            int capacity = 1000;
+            ItemSet itemSet = new ItemSet(itemCount, seed);
+            Result result = itemSet.Solution(capacity);
+            Assert.AreEqual(result.ItemIdList.Count(), itemCount);
+        }
+
+        [TestMethod]
+        [Timeout(3)]
+        public void TestPerformance()
+        {
+            
+            int itemCount = 1000; 
+            int seed = 123; 
+            int capacity = 10000;
+            ItemSet itemSet = new ItemSet(itemCount, seed);
+            Result result = itemSet.Solution(capacity);
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void TestItemValuesAndWeightsRange()
+        {
+            int itemCount = 10;
+            int seed = 123;
+            ItemSet itemSet = new ItemSet(itemCount, seed);
+            foreach(Item item in itemSet.Items)
+            {
+                Assert.IsTrue(item.Value >= 1 && item.Value <= 10);
+                Assert.IsTrue(item.Weight >= 1 && item.Weight <= 10);
+            }
+        }
+
+        [TestMethod]
+        public void TestSeedGeneratesSameItems()
+        {
+            int itemCount = 10;
+            int seed = 123;
+            ItemSet itemSetA = new ItemSet(itemCount, seed);
+            ItemSet itemSetB = new ItemSet(itemCount, seed);
+            CollectionAssert.AreEqual(itemSetA.Items, itemSetB.Items);
+        }
     }
+
 
 }
