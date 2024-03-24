@@ -4,10 +4,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 [assembly: InternalsVisibleTo("TestLab1")]
-[assembly: InternalsVisibleTo("Gui")]
 
 namespace Platformy_lab1
-{ 
+{
     internal struct Item
     {
         public int Id { get; set; }
@@ -138,8 +137,6 @@ namespace Platformy_lab1
 
             Result result = ItemSet.Solution(capacity);
             Console.WriteLine(result.ToString());
-         
-
         }
     }
 }
