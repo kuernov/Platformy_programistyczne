@@ -1830,19 +1830,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\barto\\.nuget\\packages\\": {}
+    "C:\\Users\\mrosk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barto\\source\\repos\\Platformy_programistyczne\\TestLab1\\TestLab1.csproj",
+      "projectUniqueName": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\TestLab1\\TestLab1.csproj",
       "projectName": "TestLab1",
-      "projectPath": "C:\\Users\\barto\\source\\repos\\Platformy_programistyczne\\TestLab1\\TestLab1.csproj",
-      "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barto\\source\\repos\\Platformy_programistyczne\\TestLab1\\obj\\",
+      "projectPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\TestLab1\\TestLab1.csproj",
+      "packagesPath": "C:\\Users\\mrosk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\TestLab1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mrosk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1856,8 +1856,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\barto\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj": {
-              "projectPath": "C:\\Users\\barto\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj"
+            "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj": {
+              "projectPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj"
             }
           }
         }
@@ -1866,6 +1866,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1907,7 +1912,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
