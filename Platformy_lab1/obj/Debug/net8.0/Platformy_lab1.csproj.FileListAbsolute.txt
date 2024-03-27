@@ -42,3 +42,4 @@ C:\Users\mrosk\source\repos\Platformy_programistyczne\Platformy_lab1\bin\Debug\n
 C:\Users\mrosk\source\repos\Platformy_programistyczne\Platformy_lab1\bin\Debug\net8.0\Platformy_lab1.pdb
 C:\Users\mrosk\source\repos\Platformy_programistyczne\Platformy_lab1\obj\Debug\net8.0\Platformy_lab1.genruntimeconfig.cache
 C:\Users\mrosk\source\repos\Platformy_programistyczne\Platformy_lab1\obj\Debug\net8.0\ref\Platformy_lab1.dll
+C:\Users\barto\source\repos\Platformy_lab1\Platformy_lab1\obj\Debug\net8.0\Platformy_lab1.sourcelink.json

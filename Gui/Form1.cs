@@ -24,7 +24,7 @@ namespace Gui
         {
             int numberOfItems, seed, capacity;
 
-            if (!int.TryParse(textBox1.Text, out capacity))
+            if (!int.TryParse(textBox1.Text, out capacity) || capacity<0)
             {
                 textBox1.BackColor = Color.Red;
             }
@@ -33,7 +33,7 @@ namespace Gui
                 textBox1.BackColor = SystemColors.Window;
             }
 
-            if (!int.TryParse(textBox2.Text, out seed))
+            if (!int.TryParse(textBox2.Text, out seed) || seed<0)
             {
                 textBox2.BackColor = Color.Red;
             }
@@ -42,7 +42,7 @@ namespace Gui
                 textBox2.BackColor = SystemColors.Window;
             }
 
-            if (!int.TryParse(textBox3.Text, out numberOfItems))
+            if (!int.TryParse(textBox3.Text, out numberOfItems) || numberOfItems < 0)
             {
                 textBox3.BackColor = Color.Red;
             }
@@ -51,9 +51,9 @@ namespace Gui
                 textBox3.BackColor = SystemColors.Window;
             }
 
-            if (!int.TryParse(textBox3.Text, out numberOfItems) || !int.TryParse(textBox2.Text, out seed) || !int.TryParse(textBox1.Text, out capacity))
+            if (!int.TryParse(textBox3.Text, out numberOfItems) || numberOfItems<0 || !int.TryParse(textBox2.Text, out seed)|| seed<0 || !int.TryParse(textBox1.Text, out capacity) || capacity<0)
             {
-                MessageBox.Show("Nieprawid³owe wartoœci. WprowadŸ liczby ca³kowite.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Nieprawid³owe wartoœci. WprowadŸ liczby ca³kowite nieujemne.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

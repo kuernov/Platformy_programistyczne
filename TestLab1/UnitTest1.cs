@@ -14,7 +14,7 @@ namespace TestLab1
 
             int itemCount = 10;
             int seed = 123;
-            int capacity = 0;
+            int capacity = 10;
             ItemSet itemSet = new ItemSet(itemCount, seed);
 
             Result result = itemSet.Solution(capacity);
@@ -57,6 +57,10 @@ namespace TestLab1
             if (isItemInRange)
             {
                 Assert.IsTrue(result.ItemIdList.Count > 0);
+            }
+            else
+            {
+                Assert.IsTrue(result.ItemIdList.Count == 0);
             }
 
         }

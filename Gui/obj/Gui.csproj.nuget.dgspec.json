@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Gui\\Gui.csproj": {}
+    "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Gui\\Gui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Gui\\Gui.csproj": {
+    "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Gui\\Gui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Gui\\Gui.csproj",
+        "projectUniqueName": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Gui\\Gui.csproj",
         "projectName": "Gui",
-        "projectPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Gui\\Gui.csproj",
-        "packagesPath": "C:\\Users\\mrosk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Gui\\obj\\",
+        "projectPath": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Gui\\Gui.csproj",
+        "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Gui\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mrosk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj": {
-                "projectPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj"
+              "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Platformy_lab1\\Platformy_lab1.csproj": {
+                "projectPath": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Platformy_lab1\\Platformy_lab1.csproj"
               }
             }
           }
@@ -67,21 +71,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj": {
+    "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Platformy_lab1\\Platformy_lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj",
+        "projectUniqueName": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Platformy_lab1\\Platformy_lab1.csproj",
         "projectName": "Platformy_lab1",
-        "projectPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\Platformy_lab1.csproj",
-        "packagesPath": "C:\\Users\\mrosk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrosk\\source\\repos\\Platformy_programistyczne\\Platformy_lab1\\obj\\",
+        "projectPath": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Platformy_lab1\\Platformy_lab1.csproj",
+        "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barto\\source\\repos\\Platformy_lab1\\Platformy_lab1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mrosk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

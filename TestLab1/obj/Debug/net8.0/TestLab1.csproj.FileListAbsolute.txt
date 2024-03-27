@@ -522,3 +522,4 @@ C:\Users\mrosk\source\repos\Platformy_programistyczne\TestLab1\obj\Debug\net8.0\
 C:\Users\mrosk\source\repos\Platformy_programistyczne\TestLab1\obj\Debug\net8.0\TestLab1.csproj.Up2Date
 C:\Users\mrosk\source\repos\Platformy_programistyczne\TestLab1\obj\Debug\net8.0\TestLab1.genruntimeconfig.cache
 C:\Users\mrosk\source\repos\Platformy_programistyczne\TestLab1\obj\Debug\net8.0\ref\TestLab1.dll
+C:\Users\barto\source\repos\Platformy_lab1\TestLab1\obj\Debug\net8.0\TestLab1.sourcelink.json
